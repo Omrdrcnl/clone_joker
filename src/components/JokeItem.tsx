@@ -6,10 +6,10 @@ import {
   Setup,
   Delivery,
 } from "./styled/Card";
-import { Joke, FlagKeys } from "../common/types";
+import { JokeType, FlagType, FlagKeys, CategoryType } from "../common/types";
 
 interface JokeItemProps {
-  joke: Joke;
+  joke: JokeType;
 }
 
 const JokeItem: React.FC<JokeItemProps> = ({ joke }) => {
